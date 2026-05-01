@@ -1,6 +1,7 @@
 # FDS Project
 
 ## Overview
+
 This is a Foundations of Data Science project with a clean structure for experimentation, modeling, and collaboration.
 
 ---
@@ -8,15 +9,18 @@ This is a Foundations of Data Science project with a clean structure for experim
 ## Setup (First Time)
 
 ### 1. Clone the repository
+
 ```bash
 git clone <repo-url>
 cd fds-project
 ```
 
 ### 2. Install Conda (if not installed)
+
 Install Miniconda or Mambaforge, then restart your terminal.
 
 Check installation:
+
 ```bash
 conda --version
 ```
@@ -24,6 +28,7 @@ conda --version
 ---
 
 ### 3. Create environment
+
 ```bash
 conda env create -f environment.yml
 conda activate fds-project
@@ -32,6 +37,7 @@ conda activate fds-project
 ---
 
 ### 4. Register Jupyter kernel
+
 ```bash
 python -m ipykernel install --user --name=fds-project --display-name "Python (fds-project)"
 ```
@@ -41,11 +47,13 @@ python -m ipykernel install --user --name=fds-project --display-name "Python (fd
 ## Running the Project
 
 ### Start Jupyter
+
 ```bash
     jupyter notebook
 ```
 
 Select kernel:
+
 ```
 Python (fds-project)
 ```
@@ -55,10 +63,10 @@ Python (fds-project)
 ## Project Structure
 
 ```
-notebooks/      → experiments and analysis  
-src/            → reusable code   
-data/           → local data (not pushed)  
-reports/        → generated outputs  
+notebooks/      → experiments and analysis
+src/            → reusable code
+data/           → local data (not pushed)
+reports/        → generated outputs
 ```
 
 ---
@@ -66,6 +74,7 @@ reports/        → generated outputs
 ## Data
 
 Place datasets inside:
+
 ```
 data/raw/
 ```
@@ -92,9 +101,9 @@ conda env export > environment.yml
 
 ## Notes
 
-- Keep reusable logic inside `src/`, not notebooks  
-- Keep notebooks clean (restart & clear outputs before pushing)  
-- Always activate environment before working  
+- Keep reusable logic inside `src/`, not notebooks
+- Keep notebooks clean (restart & clear outputs before pushing)
+- Always activate environment before working
 
 ---
 
@@ -107,3 +116,5 @@ conda env create -f environment.yml
 conda activate fds-project
 jupyter notebook
 ```
+
+# fds-project
