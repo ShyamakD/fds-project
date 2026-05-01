@@ -1,0 +1,12 @@
+[project]
+name = "fds-project"
+version = "0.1.0"
+description = "Foundations of Data Science project"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+src/fds_project.egg-info/PKG-INFO
+src/fds_project.egg-info/SOURCES.txt
+src/fds_project.egg-info/dependency_links.txt
+src/fds_project.egg-info/top_level.txt
